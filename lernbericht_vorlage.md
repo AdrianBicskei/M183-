@@ -17,6 +17,9 @@ Um ein Stück von (JavaScript)-Code in die ungeschützte Webapplikation einzusch
 <script>alert('XSS')</script>
 
 ```
+Der Alert, welche dadurch erzeugt wurde:
+![alert](https://user-images.githubusercontent.com/112397931/207857233-5102c2d7-f1d3-43f5-b84f-6229e6121cc4.png)
+
 
 Schützen kann man sich gegen Cross-Site-Scripting durch "escaping". Um sich bei einer JSF Webapplikation gegen XSS zu schützen, kann man das "escaping "bei den Ausgaben explizit auf "true" setzen, wie im folgenden Beispiel: 
 
