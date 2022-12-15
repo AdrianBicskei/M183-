@@ -1,18 +1,26 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+Adrian Bicskei
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+Bei der Cross-Site-Scripting geht es darum, (JavaScript)-Code auf eine Website durch Benutzereingaben einzuschleichen, damit der Browser diese Benutzereingaben darstellt, diese jedoch nicht als Seiteninhalte, sondern als Code interpretiert. 
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Im Modul 183 habe einerseits gelernt, wie man Cross-Site-Scripting bei einer Webapplikation, welche vor dieser Art von Angriffen nicht geschützt ist, anwendet. Anderseits habe ich gelernt, was man als Entwickler einer Webapplikation unternehmen kann, um sich vor XSS zu wehren. 
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+Um ein Stück von (JavaScript)-Code in die ungeschützte Webapplikation einzuschleichen, muss man in ein Formular-/Eingabeelement, dessen eingegebener Inhalt nach der Validierung auf der Website dargestellt wird, das folgende Beispiel eingeben: 
 
+<script>alert('XSS')</script>
+
+
+
+
+
+
+✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
