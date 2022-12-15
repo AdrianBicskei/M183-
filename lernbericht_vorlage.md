@@ -18,6 +18,9 @@ Um ein Stück von (JavaScript)-Code in die ungeschützte Webapplikation einzusch
 
 ```
 Der Alert, welche dadurch erzeugt wurde:
+
+
+
 ![alert](https://user-images.githubusercontent.com/112397931/207857233-5102c2d7-f1d3-43f5-b84f-6229e6121cc4.png)
 
 
